@@ -9,7 +9,7 @@
 <link href="<c:url value="/resources/css/businessinfos.css"/>" rel='stylesheet'/>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6c505216c8faffd1bf7690ddd222d68e&libraries=services"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=397669a1fcf14ca48d660694ace2b20d&libraries=services"></script>
 <link href="<c:url value="/resources/css/datepicker.min.css"/>" rel='stylesheet' type="text/css" media="all"/>
 <style>
 #wrap {
@@ -561,7 +561,7 @@ body, div, ul, li, h1, h2, h3, h4, h5, p{
 							
 							if (!Kakao.isInitialized()) {
 								// 사용할 앱의 JavaScript 키를 설정해 주세요.
-								Kakao.init('6c505216c8faffd1bf7690ddd222d68e');
+								Kakao.init('397669a1fcf14ca48d660694ace2b20d');
 							};	 
 						    
 						    // 채널 1:1 채팅 버튼을 생성합니다.
